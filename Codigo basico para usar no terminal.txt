@@ -1,0 +1,158 @@
+email
+wilsonoliveira.thaylla@gmail.com
+senha
+facebook2013
+
+Para reniciar o terminal 
+=====================================================================
+COMANDO QUE INSTALA TODOS OS PLUGINS NECESSAIRIOS PARA COMEÇA UM PROJETO
+npm install && bower intall
+=====================================================================
+
+Ctrl-c e depois S maiusculo
+===============================================
+ Comando ( LS )server para ver arquivo no seu pc
+
+Comando ( LS -l )server para ver arquivo no seu pc mas detalhado
+
+Comando ( LS -la )server para ver todos arquivo no seu pc mas detalhado
+
+==================CIRANDO ARQUIVO NO DIRETORIO TERMINAL===========
+comado zera terminal (clear)
+
+Comando ( TOUCH )server para CRIAR arquivo no seu pc 
+
+Comando (mkdir/clear)cria um diterorio
+
+Comando (cd/nome do arquivo/) ver dentro da pasta
+
+Comando para sair do arquivo ( cd ..)
+//transforma de jpg para png
+UPDATE portfolio SET imagem = 'imagem.png';
+
+Comando ver o que tem dentro do arquivo ( cat/nome do arquivo)
+
+comando para remolver arquivo (rm/nome do arquivo)
+
+remover um diretorio (rmdir/nome do arquivo)
+
+criar uma um arquivo dentro do diretorio( touch/ nome do diretorio ou pasta/nome do que você vai criar)
+
+remover um diretorio com arquivos dentro )(rm -r/nome do diretorio ou pasta)
+tou
+colocar um arquivo dentro da pasta (mv /nome do arquivo/e nome da pasta ou diretorio)
+
+tirar uma arquivo da pasta (mv /nome da pasta/nome do arquivo/ ~/ )
+
+copia um arquivo que ta dentro de uma pasta para dentro de outra pasta
+( cp/nome da pasta/nome do arquivo/ nome da pasta/e a pasta)
+
+renomear uma pasta ou diretorio(mv /nome da pasta/e o novo nome)
+
+cancelar um comando (control C)
+
+ver qual diretorio você estar (pwd)
+
+instalr o gulp/npm/install/gulp -g
+
+ver versão do do programa (nome do programa/ -v)
+
+cp package.json ../ voltar arquivo
+
+cd .. volta uma pasta antes
+
+
+====================INSTALANDO BOWER =========================
+
+NPM INSTALL BOWER -G
+
+=====================INSTALAR PACOTES=============
+BOWER INSTALL BOOTSTRAP --SAVE
+
+      UNINSTALL
+
+======================RODA UM ARQUIVO NO BOWER==============
+
+CODIGO /BOWER INIT
+
+versão do bawer/bower -v
+
+instalr plugin bower install bootstrap
+
+pasta onde esta os arquivos /cd bower_components
+
+criar arquivo /touch / nome doo arquivotou
+
+
+mostra dentro/vim /.nomedoarquivo
+
+dentro da pasta /{"directory":"components e o nome da pasta que quer"}{
+
+lista dentro da pasta cd/nome da pasta/ls mostra
+
+volta a pasta anterior / cd ..
+
+cat bower
+
+=========================aula de gulp=========================
+inciar o/ npm intit
+
+instalar
+npm install gulp --save-dev
+
+SEGUNDO PASSO PARA SUBIR ARQUIVOS PARA GITHUB
+para atualizar 
+
+1/git status
+2=git add .
+3=git commit -m "coloque o nome da atidade"
+4=git push origin master
+
+<?php
+require 'config.php';
+if(isset($_POST['nome']) && empty($_POST['nome'])==false)
+$cpf=addslashes($_POST['cpf']);
+$nome=addslashes($_POST['nome']);
+$email=addslashes($_POST['email']);
+$senha=addslashes($_POST['senha']);
+$sql ="INSERT INTO usuario SET cpf='$cpf', nome='$nome',email='$email',senha='$senha'";
+$pdo-> query($sql);
+?>
+<form method="POST">
+CPF: <br/>
+<input type="text" name="cpf"><br/>
+Nome:<br/>
+<input type="text" name="nome"><br/>
+e-mail<br/>
+<input type="e-mail" name="email"><br/>
+Senha:<br/>
+<input type="password" name="senha"><br/>
+<input type="submit" value="Cadastrar"><br/>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
