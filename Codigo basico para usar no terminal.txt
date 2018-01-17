@@ -1,13 +1,71 @@
-email
-wilsonoliveira.thaylla@gmail.com
-senha
-facebook2013
+COMO CRIAR UMA TABELA PELO TERMINAL NO MYSQL
+
+Como entra no mysql no terminal 
+1 executar / services.msc/mysql57/ mysql -u root -p
+
+Mostra se existe uma banco de dados = show databases;
+1)criar banco de dados = create database nome da tabela;
+
+2) acessar ao banco de dados = use \ nome do banco
+
+3)criar tabela = create table nome da tabela<
+ create table noticias(
+    -> id_noticias int not null primary key auto_increment,
+    -> titulo varchar<100>,
+    -> noticia text,
+    -> data_criacao timestamp default current_timestamp);enter
+
+    ver tabela = select * from nome da tabela
+
+    INSERIDO DADOS NA TABELA
+     insert into noticias noticia(titulo, noticia)value('titulo dda noticia','conteudo da noticia');
 
 Para reniciar o terminal 
 =====================================================================
-COMANDO QUE INSTALA TODOS OS PLUGINS NECESSAIRIOS PARA COMEÇA UM PROJETO
+COMANDO QUE INSTALA TODOS OS PLUGINS NECESSAIRIOS PARA COMEÃ‡A UM PROJETO
 npm install && bower intall
 =====================================================================
+
+ENTRA EM DUAS PASTA AO MESMO TEMPO
+cd nome da pasta && cd nome da pasta
+
+COMANDO PARA VER QUAL PROGRAMA FOI INSTALADO GLOBALMENTE
+ npm list -g --depth=0
+
+CRIAR UMA PASTA E ENTRA NELA
+mkdir nome da pasta && cd nome da pasta
+
+CRIANDO UM ARQUIVO HTML
+echo doctype > / nome do arquivo
+
+VER ARQUIVOS OCULTO
+ls -a 
+
+TER  AJUDA NO TERMINAL
+ls --help
+
+
+LISTANDO TODOS OS ARQUIVOS DE UMA PASTA
+ls -a -l
+
+ESCREVE VARIAS FRASES DENTRO DE UM ARQUIVO 
+echo ( texto ) >> nome do arquivo
+
+CONFIGURANDO O GIT DA MAQUINA
+git config --global user.name "nome do git"
+				"seu email"
+
+INGUINORANDO UM ARQUIVO
+echo  "nome do arquivo/"> .gitignore
+
+MOVER UM ARQUIVO PARA DENTRO DE UMA PASTA
+mv / e o nome do arquivo / nome da pasta	
+
+APAGAR PASTA COM ARQUIVOS DENTRO
+rm -rf / nome da pasta  que vc quer apagar		
+
+
+
 
 Ctrl-c e depois S maiusculo
 ===============================================
@@ -30,13 +88,16 @@ Comando para sair do arquivo ( cd ..)
 //transforma de jpg para png
 UPDATE portfolio SET imagem = 'imagem.png';
 
-Comando ver o que tem dentro do arquivo ( cat/nome do arquivo)
+Comando ver o que tem dentro do arquivo ( cat/ ver dentro arquivo)
 
 comando para remolver arquivo (rm/nome do arquivo)
+//952668142 protocolo ricardo eletro 625150193
+nodejs028@gmail.com
+senha lorenzojeziel
 
 remover um diretorio (rmdir/nome do arquivo)
 
-criar uma um arquivo dentro do diretorio( touch/ nome do diretorio ou pasta/nome do que você vai criar)
+criar um a um arquivo dentro do diretorio( touch/ nome do diretorio ou pasta/nome do que vocÃª vai criar)
 
 remover um diretorio com arquivos dentro )(rm -r/nome do diretorio ou pasta)
 tou
@@ -51,11 +112,11 @@ renomear uma pasta ou diretorio(mv /nome da pasta/e o novo nome)
 
 cancelar um comando (control C)
 
-ver qual diretorio você estar (pwd)
+ver qual diretorio vocÃª estar (pwd)
 
 instalr o gulp/npm/install/gulp -g
 
-ver versão do do programa (nome do programa/ -v)
+ver versÃ£o do do programa (nome do programa/ -v)
 
 cp package.json ../ voltar arquivo
 
@@ -75,7 +136,7 @@ BOWER INSTALL BOOTSTRAP --SAVE
 
 CODIGO /BOWER INIT
 
-versão do bawer/bower -v
+versÃ£o do bawer/bower -v
 
 instalr plugin bower install bootstrap
 
@@ -107,37 +168,6 @@ para atualizar
 2=git add .
 3=git commit -m "coloque o nome da atidade"
 4=git push origin master
-
-<?php
-require 'config.php';
-if(isset($_POST['nome']) && empty($_POST['nome'])==false)
-$cpf=addslashes($_POST['cpf']);
-$nome=addslashes($_POST['nome']);
-$email=addslashes($_POST['email']);
-$senha=addslashes($_POST['senha']);
-$sql ="INSERT INTO usuario SET cpf='$cpf', nome='$nome',email='$email',senha='$senha'";
-$pdo-> query($sql);
-?>
-<form method="POST">
-CPF: <br/>
-<input type="text" name="cpf"><br/>
-Nome:<br/>
-<input type="text" name="nome"><br/>
-e-mail<br/>
-<input type="e-mail" name="email"><br/>
-Senha:<br/>
-<input type="password" name="senha"><br/>
-<input type="submit" value="Cadastrar"><br/>
-</form>
-</body>
-</html>
-
-
-
-
-
-
-
 
 
 
