@@ -87,6 +87,9 @@ Comando ( TOUCH )server para CRIAR arquivo no seu pc
 
 Comando (mkdir/clear)cria um diterorio
 
+CRIAR UM ARQUIVO DENTRO DE UMA PASTA
+copy nul /nome do arquivo
+
 Comando (cd/nome do arquivo/) ver dentro da pasta
 
 Comando para sair do arquivo ( cd ..)
