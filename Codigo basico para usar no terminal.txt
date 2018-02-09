@@ -13,7 +13,7 @@ Mostra se existe uma banco de dados = show databases;
 
 2) acessar ao banco de dados = use \ nome do banco
 
-3)criar tabela = create table nome da tabela<
+3)criar tabela = create table nome da tabela(
  create table noticias(
     -> id_noticias int not null primary key auto_increment,
     -> titulo varchar<100>,
