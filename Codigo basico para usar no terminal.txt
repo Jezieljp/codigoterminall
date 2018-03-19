@@ -1,5 +1,6 @@
 COMO CRIAR UMA TABELA PELO TERMINAL NO MYSQL
 
+
 ITENS DA TABELA
 id_noticias
 titulo
@@ -192,6 +193,22 @@ QUANDO VOCÊ FAZ AUGUMA ATERAÇÃO NOS SEU ARQUIVO GIT
 4 - git commit -m "escreva oque você mudou no projeto"
 5 - git status //para ver se ta ok
 6 - git log //para ver as alterações
+
+USAR EXPRESS-GENERATOR
+1- INSTALAR -G
+2- express bp_express
+3- cd bp_express
+4- npm install para instalar todos os pacotes
+5- para iniciar o servidor npm start
+
+CRIANDO APLICAÇÃO COM EXPRESS
+1- instalar o express
+2- criar um arquivo app.js
+- dentro crie um servido
+
+
+
+
 
 
 
