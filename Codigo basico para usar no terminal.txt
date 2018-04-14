@@ -103,6 +103,7 @@ comando para remolver arquivo (rm/nome do arquivo)
 //952668142 protocolo ricardo eletro 625150193
 nodejs028@gmail.com
 senha lorenzojeziel
+979741692
 
 remover um diretorio (rmdir/nome do arquivo)
 
